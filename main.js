@@ -20,7 +20,7 @@ app.get('/',(req, resp) => {
     // set the status code
     resp.status(200)
     //send the response
-    resp.send(`<h1>The time is now ${new Date()}</h1><img src="/static/rock-lee.gif">`)
+    resp.send(`<h1>The time is now ${new Date()} :) finally deployed </h1><img src="/static/rock-lee.gif">`)
 })
 
 //Serve static resource
